@@ -1,3 +1,5 @@
+package streamserver;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.RandomAccessFile;
@@ -18,7 +20,7 @@ import java.util.concurrent.Executors;
  *
  * Usage: java OriginSocketServer [port=8081] [mediaDir=media]
  */
-public class OriginSocketServer {
+public class StreamServer {
 
     static final int BLOCK_SIZE = 1024;
 
